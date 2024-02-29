@@ -23,7 +23,17 @@ body {
   color: #C9F1D4;
 }
 .form-bg{
+  background: url("../src/images/form-bg.svg");
+  background-repeat: no-repeat;
   background-color: #00063F;
+  background-position: center;
+  
+}
+.game-change{
+  color: #9B8F8F;
+}
+.game-change:hover{
+  color: black;
 }
 .iconic{
   
@@ -262,16 +272,20 @@ text-decoration: none;
 }
 .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 305px !important;
+  height: 225px !important;
 }
 .card-body{
   text-align: center !important;
 }
 .card-body a{
-  text-decoration: none;
+  color: #5C50F8 !important;
+  font-weight: bold;
 }
 .card-link{
-  text-decoration: none ;
+  
   align-items: center;
+ 
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -283,10 +297,10 @@ code {
   
 }
 .hero-btn button{
-  border-radius: 50px;
-  background: #039C62;
+  border-radius: 50%;
+  background: #92E3A9;
   border: 2px solid #039C62;
-  padding: 10px 30px;
+  padding: 10px 70px;
 
 }
 .hero-btn button:hover{
@@ -331,6 +345,27 @@ code {
 .texter{
   color:#5C50F8;
 }
+.gapper-form{
+  padding-right: 17rem !important;
+}
+.gapper-form1{
+  padding-right: 15rem !important;
+}
+.gapper-form2{
+  padding-right: 10rem !important;
+}
+.gapper-form3{
+  padding-right: 12rem !important;
+}
+.gapper-form4{
+  padding-right: 16rem !important;
+}
+.gapper-form5{
+  padding-right: 10rem !important;
+}
+.fixing{
+  font-weight: 500;
+}
 .tp1{
   background-color: #5C50F8;
   color: #5C50F8;
@@ -362,6 +397,11 @@ code {
 .padder2{
   padding-top: 3rem;
 }
+.alignment{
+  padding: 0;
+  margin: 0;
+  
+}
 .box{
   background-color:#00063F;  ;
   width: 100%;
@@ -378,7 +418,7 @@ code {
   padding-top: 3rem;
 }
 .setcolor{
-  color: #5D3D74;
+  color: #5C50F8;
   ;
 }
 .pro{
@@ -502,6 +542,25 @@ background: #3498db;
     width: 240px;
     
   }
+  .gapper-form{
+    padding-right: 0% !important;
+  }
+  .gapper-form1{
+    padding-right: 0% !important;
+  }
+  .gapper-form2{
+    padding-right: 0% !important;
+  }
+  .gapper-form3{
+    padding-right: 0% !important;
+  }
+  .gapper-form4{
+    padding-right: 0% !important;
+  }
+  .gapper-form5{
+   padding-right: 0% !important;
+  }
+  
   .vb{
   width: 331px;
   font-size: x-small;

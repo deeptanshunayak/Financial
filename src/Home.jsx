@@ -7,6 +7,7 @@ import st2 from "../src/images/3rd.svg"
 import st3 from "../src/images/4th.svg"
 import st4 from "../src/images/5th.svg"
 import st5 from "../src/images/6th.svg"
+import b from "../src/images/button-link.svg"
 import { NavLink } from "react-router-dom";
 import Accordian from './Accordian'
 import { Slider } from "@mui/material";
@@ -163,7 +164,7 @@ const Home = () => {
                             <h1 className="text-left fade-in">Credit Cards And Loans</h1>
                         </div>
                         <div className="container-fluid mb-5">
-                            <div className="row">
+                            <div className="row ps-5">
                                 <div className="col-12 mx-auto">
                                     <div className="row gy-4">
                                         <div className="col-md-4 col-10 mx-auto">
@@ -173,7 +174,7 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Personal Loan</b></h6>
                                                     <p class="card-text fade-in">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to="/loan" class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to="/loan" class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +185,7 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary fade-in"><b>Education Loan</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan1' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan1' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
@@ -195,7 +196,7 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Car Loan</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan2' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan2' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
@@ -206,7 +207,7 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Home Loan</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan3' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan3' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,7 +218,7 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Property Loan</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan4' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan4' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,29 +229,29 @@ const Home = () => {
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-10 mx-auto">
+                                        <div className="col-md-4 col-10 mx-auto">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-10 mx-auto">
+                                        <div className="col-md-4 col-10 mx-auto">
                                             <div class="card">
                                                 <div class="card-body">
                                                     <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
                                                     <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
                                                     <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
 
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility</NavLink>
+                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                                 </div>
                                             </div>
                                         </div>

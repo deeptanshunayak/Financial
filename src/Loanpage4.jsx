@@ -132,11 +132,12 @@ export default function Loanpage4() {
                         <div className="row">
                             <div className="col-10 mx-auto">
                                 <div className="row theoverflow">
-                                    <h3 className="ps-5">Know your monthly for EMI Personal loan</h3>
-                                    <h6 className="ps-5">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                                <h6 className="ps-5 pb-5"><span>Home</span>&#10095;<span className="setcolor">Property Loan</span></h6>
+                                    <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
+                                    <h6 className="ps-5 pt-4 fw-bold">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
                                     <div className="col-7 align-items-start">
                                         <div className="slider">
-                                            <h6><b>Loan Amount(₹)</b></h6>
+                                            <h6>Loan Amount(₹)</h6>
                                             <input className="sizer" value={pAmount} onChange={e => setpAmount(e.target.value)} />
 
                                             <Slider
@@ -150,7 +151,7 @@ export default function Loanpage4() {
                                                 marks={mark}
                                                 step={50000}
                                             />
-                                            <h6><b>Interest (%)</b></h6>
+                                            <h6>Interest (%)</h6>
                                             <h5>{interest}</h5>
                                             <Slider
                                                 style={{ color: "#5C50F8" }}
@@ -161,7 +162,7 @@ export default function Loanpage4() {
                                                 step={0.1}
                                                 marks={mark1}
                                             />
-                                            <h6><b>Loan Tenure(in years)</b></h6>
+                                            <h6>Loan Tenure(in years)</h6>
                                             <h5>{duration}</h5>
                                             <Slider
                                                 style={{ color: "#5C50F8" }}
@@ -252,25 +253,25 @@ export default function Loanpage4() {
                             }>
                             <ul>
                                 <li>
-                                    <Link activeClass='active' smooth spy to="ruloans">EMI</Link>
+                                    <Link activeClass='active' smooth spy to="ruloans"><span className='game-change'>EMI</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="boom">Overview</Link>
+                                    <Link smooth spy to="boom"><span className='game-change'>Overview</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="eligibility">Eligibility</Link>
+                                    <Link smooth spy to="eligibility"><span className='game-change'>Eligibility</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="features">Features</Link>
+                                    <Link smooth spy to="features"><span className='game-change'>Features</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="documents">Documents</Link>
+                                    <Link smooth spy to="documents"><span className='game-change'>Documents</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="ruloans">Fees & Charges</Link>
+                                    <Link smooth spy to="ruloans"><span className='game-change'>Fees & Charges</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="boom">FAQ's</Link>
+                                    <Link smooth spy to="boom"><span className='game-change'>FAQ's</span></Link>
                                 </li>
                             </ul>
                         </div>
@@ -297,7 +298,7 @@ export default function Loanpage4() {
                                 <img src={loan} className="set animated1" alt="home img" />
                             </div>
                             <div className='col order-1'>
-                                <h2 className=' setcolor'>PROPERTY LOAN</h2>
+                                <h2 className=' setcolor'>About Property Loan</h2>
                                 <div className='col'>
                                     <div className='adjust'>
                                         <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
@@ -314,14 +315,14 @@ export default function Loanpage4() {
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Eligibility</h3>
                             <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                            <p>Age should fall under the range of 21 years to 60 years</p>
-                            <p>Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                            <p>Credit score must be above 650</p>
-                            <p>Debt-to-income ratio</p>
-                            <p>Employment stability</p>
-                            <p>Maintained a good credit score</p>
-                            <p>Clear repayment history</p>
-                            <p>Must be a Resident Citizen of India</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Clear repayment history</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
 
                         </div>
                         </section>
@@ -330,24 +331,24 @@ export default function Loanpage4() {
                             <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
                             <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
                             <p>The followings are the ways a personal loan can be useful:</p>
-                            <p><span>&#8226;</span>Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
-                            <p><span>&#8226;</span>Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
-                            <p><span>&#8226;</span>Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
-                            <p><span>&#8226;</span>Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
                         </div>
                         </section>
                         <section id='documents'>
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                            <p><span>&#8226;</span>Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p><span>&#8226;</span>Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                            <p><span>&#8226;</span>Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p><span>&#8226;</span>Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                            <p><span>&#8226;</span>Employment Proof - Employment Certificate, Office address proof</p>
-                            <p><span>&#8226;</span>GST or VAT Registration for Self-employed</p>
-                            <p><span>&#8226;</span>Photograph - Passport-size photographs</p>
-                            <p><span>&#8226;</span>Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                            <p><span>&#8226;</span>Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
                         </div>
                         </section>
                         <div className='pt-5'>
