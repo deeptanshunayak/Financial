@@ -106,7 +106,7 @@ function FormExample() {
                                 </Form.Group>
                             </Row>
                             
-                            <div className='hero-btn pt-5'>
+                            <div className='hero-btn pt-5 pb-5'>
                                 <Button type="submit"><span className='fw-bold text-dark'>Submit</span></Button>
                             </div>
                         </Form>
