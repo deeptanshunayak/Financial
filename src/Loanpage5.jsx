@@ -311,6 +311,12 @@ export default function Loanpage5() {
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <section id="contact">
+            <FormExample></FormExample>
+            </section>
+                        <div className="col-10 mx-auto">
+
                         <div className=' overflow-x-hidden'>
                             <section id="eligibility">
                             <div className='pt-5 fade-in'>
@@ -357,10 +363,11 @@ export default function Loanpage5() {
 
                         </div>
 
-                    </div>
+                    
+                </div>
                 </div>
            
-            <FormExample></FormExample>
+            
             <section id='ruloans'>
                 <div className="col-10 mx-auto pt-5">
                     <div className='row'>

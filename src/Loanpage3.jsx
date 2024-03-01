@@ -311,6 +311,13 @@ export default function Loanpage3() {
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <section id="contact">
+            <FormExample></FormExample>
+            </section>
+                        <div className="col-10 mx-auto">
+                        
+
                         <section id="eligibility">
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Eligibility</h3>
@@ -355,11 +362,10 @@ export default function Loanpage3() {
 
                         </div>
 
-                    </div>
+                   
                 </div>
-           <section id="contact">
-            <FormExample></FormExample>
-            </section>
+                </div>
+          
             <section id='ruloans'>
                 <div className="col-10 mx-auto pt-5">
                     <div className='row'>
