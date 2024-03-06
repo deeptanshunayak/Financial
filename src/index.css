@@ -542,6 +542,10 @@ background: #3498db;
   justify-content: center;
   align-items: center;
 }
+.ring{
+  color: #3C3C3C;
+  font-weight: 700;
+}
 @media only screen and (max-width: 760px) {
   .slider{
     width: 260px;
@@ -570,12 +574,9 @@ background: #3498db;
    padding-right: 0% !important;
   }
   .prov{
-    padding-left: 1rem;
+   padding-left: 0;
   }
-.ring{
-  color: #3C3C3C;
-  font-weight: 700;
-}
+
   .vb{
   width: 331px;
   font-size: x-small;
