@@ -159,7 +159,7 @@ ul li {
 
 /* responsive css style  */
 @media (max-width: 998px) {
-  .main-nav {
+  .main-nav1 {
     height: 7rem;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
   }
@@ -231,7 +231,7 @@ ul li {
 }
 
 @media (max-width: 798px) {
-  .main-nav {
+  .main-nav1 {
     height: 6rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }

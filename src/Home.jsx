@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import web from "../src/images/homepage.svg";
 import web1 from "../src/images/card.svg";
-import st from "../src/images/1st.svg"
-import st1 from "../src/images/2nd.svg"
-import st2 from "../src/images/3rd.svg"
-import st3 from "../src/images/4th.svg"
-import st4 from "../src/images/5th.svg"
-import st5 from "../src/images/6th.svg"
-import b from "../src/images/button-link.svg"
+
 import { NavLink } from "react-router-dom";
+import Card from "./Card";
 import Accordian from './Accordian'
 import { Slider } from "@mui/material";
 import { indigo } from '@mui/material/colors';
@@ -21,7 +16,7 @@ import Navbar1 from "./Navbar1";
 
 const Home = () => {
     const color1 = indigo[900];
-    const [pAmount, setpAmount] = useState(2755000);
+    const [pAmount, setpAmount] = useState(75000);
     const [interest, setinterest] = useState(7);
     const [duration, setduration] = useState(14);
     const intMax = 24;
@@ -138,7 +133,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className="row">
-                                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
                                     <h1 className="fade-in">
                                         Unveiling Your Financial Potential...
                                     </h1>
@@ -149,7 +144,7 @@ const Home = () => {
                                         <NavLink to="/" className="btn-get-started">Get Started</NavLink>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 order-1 order-lg-2 header-img">
+                                <div className="col-lg-6 order-2 order-lg-2 header-img">
                                     <img src={web} className="img-fluid animated" alt="home img" />
                                 </div>
                             </div>
@@ -157,113 +152,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section id="gapper">
-                <div className="row pt-5">
-                    <div className="col-10 mx-auto">
-                        <div className="my-4">
-                            <h1 className="text-left fade-in">Credit Cards And Loans</h1>
-                        </div>
-                        <div className="container-fluid mb-5">
-                            <div className="row ps-5">
-                                <div className="col-12 mx-auto">
-                                    <div className="row gy-4">
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"> <img src={st} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Personal Loan</b></h6>
-                                                    <p class="card-text fade-in">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to="/loan" class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st1} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary fade-in"><b>Education Loan</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan1' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st2} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Car Loan</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan2' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st3} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Home Loan</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan3' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st5} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Property Loan</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan4' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
-                                                    <h6 class="card-subtitle mb-2 text-body-secondary"><b>Gold Laon</b></h6>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up <br></br>the bulk of the card's content.</p>
-
-                                                    <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-4 col-10 mx-auto">
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <section className="card-design">
+                <Card></Card>
             </section>
             <section id="header1" className="d-flex align-items-center">
                 <div className="container-fluid nav_bg">
@@ -293,8 +183,8 @@ const Home = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row">
-                            <h3 className="ps-5">Emi Calculator</h3>
-                            <h6 className="ps-5">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                            <h3 className="ps-5"><b>Emi Calculator</b></h3>
+                            <h6 className="ps-5"><b>You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</b></h6>
                             <div className="col-7 align-items-start">
                                 <div className="slider">
                                     <h6><b>Loan Amount(₹)</b></h6>

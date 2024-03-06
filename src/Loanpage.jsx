@@ -16,7 +16,7 @@ import FormExample from "./FormExample";
 import Navbar1 from "./Navbar1";
 export default function Loanpage() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
-    const [pAmount, setpAmount] = useState(755000);
+    const [pAmount, setpAmount] = useState(75000);
     const [interest, setinterest] = useState(7);
     const [duration, setduration] = useState(14);
     const intMax = 24;
