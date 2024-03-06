@@ -95,6 +95,7 @@ ul li {
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .social-media ul li {
