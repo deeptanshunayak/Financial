@@ -132,7 +132,7 @@ export default function Loanpage2() {
                         <div className="row">
                             <div className="col-10 mx-auto">
                                 <div className="row">
-                                <h6 className="ps-5 pb-5"><span>Home</span>&#10095;<span className="setcolor">Car Loan</span></h6>
+                                <h6 className="ps-5 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Car Loan</span></h6>
                                     <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
                                     <h6 className="ps-5 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
                                     <div className="col-7 align-items-start">
@@ -256,7 +256,7 @@ export default function Loanpage2() {
                                     <Link activeClass='active' smooth spy to="ruloans"><span className='game-change'>EMI</span></Link>
                                 </li>
                                 <li>
-                                    <Link smooth spy to="boom"><span className='game-change'>Overview</span></Link>
+                                    <Link smooth spy to="main"><span className='game-change'>Overview</span></Link>
                                 </li>
                                 <li>
                                     <Link smooth spy to="eligibility"><span className='game-change'>Eligibility</span></Link>
@@ -301,11 +301,14 @@ export default function Loanpage2() {
                                 <h2 className='setcolor'>About Car Loan</h2>
                                 <div className='col'>
                                     <div className='adjust'>
+                                        <section id='main'>
                                         <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
 
                                             Age should fall under the range of 21 years to 60 years
                                             Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
-                                        </p></div>
+                                        </p>
+                                        </section>
+                                        </div>
                                         <br></br>
                                     <Link to="contact" className="btn-get-started1">Apply Now</Link>
                                 </div>

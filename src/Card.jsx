@@ -6,6 +6,8 @@ import st3 from "../src/images/4th.svg"
 import st4 from "../src/images/5th.svg"
 import st5 from "../src/images/6th.svg"
 import b from "../src/images/button-link.svg"
+import st6 from "../src/images/st6.svg"
+import st7 from "../src/images/st7.svg"
 import { NavLink } from "react-router-dom";
 export default function Card() {
     return (
@@ -73,6 +75,26 @@ export default function Card() {
                                     <div class="card-body">
                                         <h5 class="card-title"><img src={st4} className="img-fluid animated" alt="home img" /></h5>
                                         <h6 class="card-subtitle mb-2"><b>Gold Loan</b></h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><img src={st7} className="img-fluid animated" alt="home img" /></h5>
+                                        <h6 class="card-subtitle mb-2"><b>credit Card</b></h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col'>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><img src={st6} className="img-fluid animated" alt="home img" /></h5>
+                                        <h6 class="card-subtitle mb-2"><b>Business Loan</b></h6>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <NavLink to='/loan5' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                     </div>

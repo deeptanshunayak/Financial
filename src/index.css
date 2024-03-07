@@ -268,8 +268,8 @@ code {
     monospace;
 }
 .card{
-  width: 305px !important;
-  height: 225px !important;
+  width: 270px !important;
+  height: 235px !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card-body a{
@@ -304,6 +304,7 @@ code {
 }
 .hero-btn button{
   border-radius: 50%;
+  width: 245px;
   background: #92E3A9;
   border: 2px solid #039C62;
   padding: 10px 70px;
