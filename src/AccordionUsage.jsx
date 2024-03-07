@@ -16,11 +16,10 @@ export default function AccordionUsage() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          Accordion 1
+          What is Minimum Credit Score required to Qualify for Loan
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        Most lenders consider a credit score of 650 or above to be strong enough to qualify for a personal loan.
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -29,11 +28,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          Accordion 2
+          Can Students Apply For Personal Loan
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        Students are eligible to apply for a personal loan. However, depending on the lender and the student's financial situation, <br/>the eligibility criteria and loan terms may differ.
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -42,11 +40,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          Accordion 3
+          Can I use Personal Loan For Marriage Expanse
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        Yes, you can use a personal loan for marriage expenses. Because weddings may be extremely pricey, <br/>personal loans are frequently utilized to pay for them. However, it's important to consider whether you can <br/>afford to repay the loan, as defaulting on a loan can negatively impact your credit score and financial future. 
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -55,30 +52,25 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          Accordion 4
+          Are there any charges for prepaying a personal Loan
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        Yes, there may be fees associated with prepaying a personal loan, which are commonly referred to as prepayment penalties. Some lenders charge these fees if you repay your loan before the end of the term.
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3-content"
-          id="panel3-header"
+          aria-controls="panel2-content"
+          id="panel2-header"
         >
-          Accordion Actions
+          How can I Calculate Emi For Personal Loan
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        Yes, there may be fees associated with prepaying a personal loan, which are commonly referred to as prepayment penalties. Some lenders charge these fees if you repay your loan before the end of the term.
         </AccordionDetails>
-        <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
-        </AccordionActions>
       </Accordion>
+      
     </div>
   );
 }

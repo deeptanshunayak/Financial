@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import web1 from "../src/images/Rupee solutions.svg";
 import "./Navbar1.css";
-
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { NavLink } from "react-router-dom";
@@ -29,7 +29,19 @@ const Navbar1 = () => {
               <NavLink to="/">About</NavLink>
             </li>
             <li>
-              <NavLink to="/">Loans</NavLink>
+              <NavLink to="/">
+              <NavDropdown title="Loans" id="nav-dropdown">
+        <NavDropdown.Item eventKey="4.1">Personal Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2">Education Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.3">Home Loan</NavDropdown.Item>
+        
+        
+        <NavDropdown.Item eventKey="4.4">Property Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.5">Gold Loan</NavDropdown.Item>
+        
+        <NavDropdown.Item eventKey="4.6">Car Loan</NavDropdown.Item>
+      </NavDropdown>
+              </NavLink>
             </li>
             <li>
               <NavLink to="/contactus">contact</NavLink>
