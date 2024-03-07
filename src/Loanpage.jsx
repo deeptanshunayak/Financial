@@ -16,7 +16,7 @@ import FormExample from "./FormExample";
 import Navbar1 from "./Navbar1";
 export default function Loanpage() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
-    const [pAmount, setpAmount] = useState(750000);
+    const [pAmount, setpAmount] = useState(7000000);
     const [interest, setinterest] = useState(7);
     const [duration, setduration] = useState(14);
     const intMax = 24;
@@ -259,7 +259,7 @@ export default function Loanpage() {
                             }>
                             <ul>
                                 <li>
-                                    <Link activeClass='active' smooth spy to="ruloans"><span className='game-change'>EMI</span></Link>
+                                    <Link activeClass='active' smooth spy to="emi"><span className='game-change'>EMI</span></Link>
                                 </li>
                                 <li>
                                     <Link smooth spy to="main"><span className='game-change'>Overview</span></Link>
@@ -307,7 +307,7 @@ export default function Loanpage() {
                             <div className='col order-1'>
                                 <h2 className=' setcolor'>About Personal Loan</h2>
                                 <div className='col'>
-                                    <section id="#main">
+                                    <section id="main">
                                     <div className='adjust'>
                                     
                                         <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
@@ -412,7 +412,7 @@ export default function Loanpage() {
             </section>
             <section className="boom">
                 <div className="row justify-content-center">
-                    <div className="col-10 mx-auto">
+                    <div className="col-10 mx-auto justify-content-center ">
                         <AccordionUsage></AccordionUsage>
                     </div>
                 </div>

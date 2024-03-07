@@ -310,6 +310,21 @@ code {
   padding: 10px 70px;
 
 }
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(20%);
+}
+.headroom--unfixed {
+  position: relative;
+  transform: translateY(10);
+}
+.headroom--scrolled {
+  transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(100%);
+}
 .hero-btn button:hover{
   background: #039C62;
 
