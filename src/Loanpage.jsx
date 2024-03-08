@@ -371,12 +371,8 @@ export default function Loanpage() {
                         </div>
                     </div>
                 </section>
-                <section className="boom">
-                    <div className="row justify-content-center">
-                        <div className="col-10 mx-auto justify-content-center ">
-                            <AccordionUsage></AccordionUsage>
-                        </div>
-                    </div>
+               <section id="accorder">
+                <AccordionUsage></AccordionUsage>
                 </section>
                 <section id="boomer">
                     <Footer></Footer>

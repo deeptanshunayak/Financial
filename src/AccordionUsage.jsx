@@ -16,10 +16,10 @@ export default function AccordionUsage() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <b>What is Minimum Credit Score required to Qualify for Loan</b>
+          <b>What is Minimum Credit Score required to Qualify for Loan?</b>
         </AccordionSummary>
         <AccordionDetails>
-        Most lenders consider a credit score of 650 or above to be strong enough to qualify for a personal loan.
+        Depending on several factors, including the loan amount, loan term, income, and employment history, different lenders have different minimum credit score requirements to be approved for personal loans. Most lenders consider a credit score of 650 or above to be strong enough to qualify for a personal loan. To be eligible for a personal loan with low-interest rates and advantageous terms, some lenders may require a credit score of 700 or better.
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -28,10 +28,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-         <b> Can Students Apply For Personal Loan</b>
+         <b> Can Students Apply For Personal Loan?</b>
         </AccordionSummary>
         <AccordionDetails>
-        Students are eligible to apply for a personal loan. However, depending on the lender and the student's financial situation, 
+        Students are eligible to apply for a personal loan. However, depending on the lender and the student's financial situation, the eligibility criteria and loan terms may differ. If the student is employed or has a steady source of income, procuring a personal loan may be easier. A good credit score can also increase the likelihood of approval and result in lower interest rates.
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -40,10 +40,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <b>Can I use Personal Loan For Marriage Expanse</b>
+          <b>Can I use Personal Loan For Marriage Expanse?</b>
         </AccordionSummary>
         <AccordionDetails>
-        Yes, you can use a personal loan for marriage expenses. 
+        Yes, you can use a personal loan for marriage expenses. Because weddings may be extremely pricey, personal loans are frequently utilized to pay for them. However, it's important to consider whether you can afford to repay the loan, as defaulting on a loan can negatively impact your credit score and financial future.  
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -52,10 +52,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-         <b> Are there any charges for prepaying a personal Loan</b>
+         <b> Are there any charges for prepaying a personal Loan?</b>
         </AccordionSummary>
         <AccordionDetails>
-        Yes, there may be fees associated with prepaying a personal loan, which are commonly referred to as prepayment penalties.
+        Yes, there may be fees associated with prepaying a personal loan, which are commonly referred to as prepayment penalties. Some lenders charge these fees if you repay your loan before the end of the term. The prepayment penalty varies by lender and can be a fixed fee or a percentage of the outstanding loan amount. It is crucial to carefully read the loan agreement to determine whether there are any prepayment penalties associated with the loan and what the charges would be if you decided to repay the loan.
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -64,10 +64,10 @@ export default function AccordionUsage() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <b>How can I Calculate Emi For Personal Loan</b>
+          <b>How can I Calculate Emi For Personal Loan?</b>
         </AccordionSummary>
         <AccordionDetails>
-        Yes, there may be fees associated with prepaying a personal loan, which are commonly referred to as prepayment penalties. Some lenders charge these fees if you repay your loan before the end of the term.
+        Your EMI consists of two components - principal repayment and interest payment. In the initial years, the interest component will be higher, and gradually, the principal component will increase.
         </AccordionDetails>
       </Accordion>
       

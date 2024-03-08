@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Accordian from './Accordian'
 import { Slider } from "@mui/material";
-import AccordionUsage from './AccordionUsage'
+import AccordionUsage2 from './AccordionUsage2'
 import loan from "../src/images/carloan.svg"
 import { NavLink } from "react-router-dom";
 import fb from "../src/images/footerb.svg"
@@ -360,13 +360,9 @@ export default function Loanpage2() {
                     </div>
                 </div>
             </section>
-            <section className="boom">
-                <div className="row justify-content-center">
-                    <div className="col-10 mx-auto">
-                        <AccordionUsage></AccordionUsage>
-                    </div>
-                </div>
-            </section>
+            <section id="accorder">
+                <AccordionUsage2></AccordionUsage2>
+                </section>
             <section id="boomer">
                 <Footer></Footer>
             </section>

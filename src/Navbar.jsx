@@ -53,7 +53,7 @@ const Navbar = () => {
               <Link smooth spy to="ruloans"><span className='game-change'>Fees & Charges</span></Link>
             </li>
             <li>
-              <Link smooth spy to="boom"><span className='game-change'>FAQ's</span></Link>
+              <Link smooth spy to="accorder"><span className='game-change'>FAQ's</span></Link>
             </li>
           </ul>
         </div>

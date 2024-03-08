@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Accordian from './Accordian'
 import { Slider } from "@mui/material";
 import { Link, animateScroll as Scroll } from "react-scroll";
-import AccordionUsage from './AccordionUsage'
+import AccordionUsage1 from './AccordionUsage1'
 import loan from "../src/images/educationloan.svg"
 import loan1 from "../src/images/loan1.svg"
 import fb from "../src/images/footerb.svg"
@@ -365,13 +365,9 @@ export default function Loanpage1() {
             </div>
           </div>
         </section>
-        <section className="boom">
-          <div className="row justify-content-center">
-            <div className="col-10 mx-auto">
-              <AccordionUsage></AccordionUsage>
-            </div>
-          </div>
-        </section>
+        <section id="accorder">
+                <AccordionUsage1></AccordionUsage1>
+                </section>
         <section id="boomer">
           <Footer></Footer>
         </section>

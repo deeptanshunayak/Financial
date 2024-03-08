@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Accordian from './Accordian'
-import AccordionUsage from './AccordionUsage'
+import AccordionUsage3 from './AccordionUsage3'
 import { NavLink } from "react-router-dom";
 import { Slider } from "@mui/material";
 import loan from "../src/images/homeloan.svg"
@@ -362,13 +362,9 @@ export default function Loanpage3() {
                     </div>
                 </div>
             </section>
-            <section className="boom">
-                <div className="row justify-content-center">
-                    <div className="col-10 mx-auto">
-                        <AccordionUsage></AccordionUsage>
-                    </div>
-                </div>
-            </section>
+            <section id="accorder">
+                <AccordionUsage3></AccordionUsage3>
+                </section>
             <section id="boomer">
                 <Footer></Footer>
             </section>

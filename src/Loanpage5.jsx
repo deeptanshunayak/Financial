@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Slider } from "@mui/material";
 import loan from "../src/images/personalloan.svg"
 import fb from "../src/images/footerb.svg"
-import AccordionUsage from './AccordionUsage'
+import AccordionUsage5 from './AccordionUsage5'
 import loan1 from "../src/images/loan1.svg"
 import { Link, animateScroll as Scroll } from "react-scroll";
 import Footer from "./Footer";
@@ -362,13 +362,9 @@ export default function Loanpage5() {
                     </div>
                 </div>
             </section>
-            <section className="boom">
-                <div className="row justify-content-center">
-                    <div className="col-10 mx-auto">
-                        <AccordionUsage></AccordionUsage>
-                    </div>
-                </div>
-            </section>
+            <section id="accorder">
+                <AccordionUsage5></AccordionUsage5>
+                </section>
             <section id="boomer">
                 <Footer></Footer>
             </section>

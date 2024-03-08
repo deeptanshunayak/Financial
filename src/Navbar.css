@@ -24,6 +24,12 @@ ul li {
   background-color: #FAF9F6;
  
 }
+.fixed{
+  position: fixed;
+  top:0;
+  left:0;
+  
+}
 
 
 .logo {

@@ -194,6 +194,9 @@ text-decoration: none;
     text-decoration: none;
     
     }
+    #accorder{
+      padding: 150px;
+    }
    
    .btn-get-started1:hover{
     background: #5C50F8;
@@ -598,7 +601,11 @@ background: #3498db;
   .prov{
    padding-left: 0;
   }
-
+#accorder{
+  padding: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
   .vb{
   width: 331px;
   font-size: x-small;
