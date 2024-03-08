@@ -12,6 +12,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import FormExample from './FormExample';
 import Navbar1 from './Navbar1';
 import Headroom from 'react-headroom';
+import Navbar from './Navbar';
 export default function Loanpage5() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     const [pAmount, setpAmount] = useState(2755000);
@@ -239,58 +240,11 @@ export default function Loanpage5() {
                             </div>
                         </div>
                     </section>
-                    <Headroom>
-                    <nav className="main-nav1">
-                        {/* 1st logo part  */}
-                        <div className="logo">
-
-                        </div>
-
-                        {/* 2nd menu part  */}
-                        <div
-                            className={
-                                showMediaIcons ? "menu-link1 mobile-menu-link1" : "menu-link1"
-                            }>
-                            <ul>
-                                <li>
-                                    <Link activeClass='' smooth spy to="ruloans"><span className='game-change'>EMI</span></Link>
-                                </li>
-                                <li>
-                                    <Link smooth spy to="main"><span className='game-change'>Overview</span></Link>
-                                </li>
-                                <li>
-                                    <Link  smooth spy to="eligibility"><span className='game-change'>Eligibility</span></Link>
-                                </li>
-                                <li>
-                                    <Link smooth spy to="features"><span className='game-change'>Features</span></Link>
-                                </li>
-                                <li>
-                                    <Link smooth spy to="documents"><span className='game-change'>Documents</span></Link>
-                                </li>
-                                <li>
-                                    <Link smooth spy to="boomer"><span className='game-change'>Fees & Charges</span></Link>
-                                </li>
-                                <li>
-                                    <Link smooth spy to="boom"><span className='game-change'>FAQ's</span></Link>
-                                </li>
-                            </ul>
-                        </div>
-
-                        {/* 3rd social media links */}
-                        <div className="social-media">
-                            <ul className="social-media-desktop">
-
-                            </ul>
-
-                            {/* hamburget menu start  */}
-                            <div className="hamburger-menu">
-                                <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-                                    <GiHamburgerMenu />
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                    </Headroom>
+                    <section>
+                        
+                        <Navbar></Navbar>
+                        
+                    </section>
                     <div className="col-10 mx-auto">
 
                         <div className='row'>

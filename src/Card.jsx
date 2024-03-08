@@ -64,7 +64,7 @@ export default function Card() {
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title"><img src={st5} className="img-fluid animated" alt="home img" /></h5>
-                                        <h6 class="card-subtitle mb-2 "><b>Property Loan</b></h6>
+                                        <h6 class="card-subtitle mb-2 "><b>Loan Aginst Property</b></h6>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <NavLink to='/loan4' class="card-link">Check Eligibility<span> <img src={b} className="img-fluid animated" alt="home img" /></span></NavLink>
                                     </div>
