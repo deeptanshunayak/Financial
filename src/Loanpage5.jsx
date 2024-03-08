@@ -355,6 +355,9 @@ export default function Loanpage5() {
                         </div>
                         <div className='col text-end ps-3'>
                             <img src={loan1} className="set animated1" alt="home img" />
+                            <div className="text-center">
+                                <Link to="contact" className="btn-get-started2">Get Started</Link>
+                                </div>
                         </div>
                     </div>
                 </div>
