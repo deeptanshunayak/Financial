@@ -245,28 +245,33 @@ export default function Loanpage5() {
                         <Navbar></Navbar>
                         
                     </section>
+                    <section id='main'>
                     <div className="col-10 mx-auto">
 
                         <div className='row'>
+                            
                             <div className='col order-2'>
                                 <img src={loan} className="set animated1" alt="home img" />
                             </div>
+                            
                             <div className='col order-1'>
                                 <h2 className='setcolor'>About Gold Loan</h2>
                                 <div className='col'>
                                     <div className='adjust'>
-                                        <section>
+                                        
                                         <p className='fade-in'>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
 
                                             Age should fall under the range of 21 years to 60 years
                                             Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
-                                        </p></section></div>
+                                        </p></div>
                                         <br></br>
                                     <Link to="contact" className="btn-get-started1">Apply Now</Link>
                                 </div>
                             </div>
+                            
                         </div>
                         </div>
+                        </section>
                         <section id="contact">
             <FormExample></FormExample>
             </section>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Slider } from "@mui/material";
 import Accordian from './Accordian'
 import AccordionUsage from './AccordionUsage'
-import loan from "../src/images/personalloan.svg"
+import img1 from "../src/images/personalloan.svg"
 import fb from "../src/images/footerb.svg"
 import { NavLink } from "react-router-dom";
 import loan1 from "../src/images/loan1.svg"
@@ -257,7 +257,7 @@ export default function Loanpage() {
                             <div className='row'>
                                 <div className='col order-2'>
 
-                                    <img src={loan} className="set animated1" alt="home img" />
+                                    <img src={img1} className="set animated1" alt="home img" />
                                 </div>
 
                                 <div className='col order-1'>

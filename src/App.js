@@ -1,5 +1,5 @@
 
-import { Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes, useLocation } from 'react-router-dom';
 
 import './App.css';
 import Home from "./Home";
@@ -14,14 +14,22 @@ import Loanpage4 from './Loanpage4';
 import Loanpage5 from './Loanpage5';
 import Navbar  from './Navbar';
 import Form from './Form';
+import ScrollToTop from "react-scroll-to-top";
+import { useEffect } from 'react';
 function App() {
+  const {pathname}=useLocation();
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[pathname])
   return (
     <>
     
     <div className="App">
      
       <switch>
+      
         <Routes>
+       
         <Route path='/' Component={Home}/>
         <Route path='/loan' Component={Loanpage}/>
         <Route path='/loan1' Component={Loanpage1}/>
