@@ -289,13 +289,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="boom">
-                <div className="row justify-content-center pt-3">
-                    <div className="col-10 mx-auto">
-                        <AccordionUsage></AccordionUsage>
-                    </div>
-                </div>
-            </section>
+            <section id="accorder">
+                <AccordionUsage></AccordionUsage>
+                </section>
 
             <section id="boomer">
                 <Footer></Footer>
