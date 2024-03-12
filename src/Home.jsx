@@ -16,7 +16,7 @@ import Navbar1 from "./Navbar1";
 
 const Home = () => {
     const color1 = indigo[900];
-    const [pAmount, setpAmount] = useState(75000);
+    const [pAmount, setpAmount] = useState(7500000);
     const [interest, setinterest] = useState(7);
     const [duration, setduration] = useState(14);
     const intMax = 24;

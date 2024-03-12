@@ -22,6 +22,7 @@ ul li {
  
   grid-template-columns: 10rem 1fr 58fr 1fr 10rem;
   background-color: #FAF9F6;
+  margin-bottom: 3rem;
  
 }
 .fixed{

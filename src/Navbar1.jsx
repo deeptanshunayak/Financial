@@ -31,13 +31,13 @@ const Navbar1 = () => {
             <li>
               <NavLink to="/">
               <NavDropdown title="Loans" id="nav-dropdown">
-        <NavDropdown.Item eventKey="4.1">Personal Loan</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.2">Education Loan</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.3">Home Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.1"> <NavLink to="/loan">Personal Loan</NavLink></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2"> <NavLink to="/loan1">Education Loan</NavLink></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.3"> <NavLink to="/loan4">Loan Against Property</NavLink></NavDropdown.Item>
         
         
-        <NavDropdown.Item eventKey="4.4">Property Loan</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.5">Gold Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.4"> <NavLink to="/loan2">Car Loan</NavLink></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.5"> <NavLink to="/loan5">Gold Loan</NavLink></NavDropdown.Item>
         
         <NavDropdown.Item eventKey="4.6">Car Loan</NavDropdown.Item>
       </NavDropdown>

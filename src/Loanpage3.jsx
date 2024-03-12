@@ -15,7 +15,7 @@ import Navbar1 from './Navbar1';
 import Navbar from './Navbar';
 export default function Loanpage3() {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
-    const [pAmount, setpAmount] = useState(2755000);
+    const [pAmount, setpAmount] = useState(7500000);
     const [interest, setinterest] = useState(7);
     const [duration, setduration] = useState(14);
     const intMax = 24;
