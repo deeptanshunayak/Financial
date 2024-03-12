@@ -274,8 +274,8 @@ export default function Loanpage3() {
             </section>
                         <div className="col-10 mx-auto">
                         
-
-                        <section id="eligibility">
+                        <div id="eligibility" className="pt-5"></div>
+                       
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Eligibility</h3>
                             <p  className="alignment">To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
@@ -289,8 +289,8 @@ export default function Loanpage3() {
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
 
                         </div>
-                        </section>
-                        <section id="features">
+                        
+                        <div id="features" className="pt-5"></div>
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
                             <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
@@ -300,8 +300,8 @@ export default function Loanpage3() {
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
                         </div>
-                        </section>
-                        <section id='documents'>
+                        
+                        <div id="documents" className="pt-5"></div>
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
@@ -314,7 +314,7 @@ export default function Loanpage3() {
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
                             <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
                         </div>
-                        </section>
+                        
                         <div className='pt-5'>
 
                         </div>
