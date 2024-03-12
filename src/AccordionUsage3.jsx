@@ -10,7 +10,7 @@ export default function AccordionUsage3() {
   return (
     <div>
       <h1 className='text-center pb-5 thesetter'>Frequently Asked Questions</h1>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -22,7 +22,7 @@ export default function AccordionUsage3() {
         A home loan, is a loan provided by a financial institution to help you purchase or refinance a home. It is typically repaid in monthly installments over a specified term.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -34,7 +34,7 @@ export default function AccordionUsage3() {
         Qualification criteria can vary among lenders, but factors such as your credit score, income, employment history, and the property's value are commonly considered when determining eligibility. 
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -46,7 +46,7 @@ export default function AccordionUsage3() {
         Loan tenure refers to the length of time over which you'll repay your home loan. It can vary but is usually 15, 20, or 30 years. Longer tenures result in lower monthly payments but higher overall interest costs.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -58,7 +58,7 @@ export default function AccordionUsage3() {
         EMI stands for Equated Monthly Installment, which is the fixed monthly payment you make to repay your home loan. It typically includes both principal and interest portions.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"

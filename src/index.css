@@ -275,6 +275,9 @@ code {
   height: 235px !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .card-body a{
   color: #5C50F8 !important;
   font-weight: bold;
@@ -599,7 +602,8 @@ background: #3498db;
    padding-right: 0% !important;
   }
   .prov{
-   padding-left: 0;
+  padding-left: 2rem;
+  
   }
 #accorder{
   padding: 0px;

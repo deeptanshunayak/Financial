@@ -10,7 +10,7 @@ export default function AccordionUsage1() {
   return (
     <div>
       <h1 className='text-center pb-5 thesetter'>Frequently Asked Questions</h1>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -22,7 +22,7 @@ export default function AccordionUsage1() {
         An education loan is a financial product designed to assist students and their families in covering the costs associated with higher education, including tuition fees, books, living expenses, and more.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -34,7 +34,7 @@ export default function AccordionUsage1() {
         Eligibility criteria vary by lender and country, but typically include factors like admission to an eligible program, citizenship or residency status, academic performance, and more.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -46,7 +46,7 @@ export default function AccordionUsage1() {
         A moratorium period is a grace period during which borrowers are not required to make loan repayments, usually after graduation or starting a job. However, interest might accrue during this time.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -58,7 +58,7 @@ export default function AccordionUsage1() {
         Repayment usually starts after the moratorium period ends, based on the terms of the loan agreement.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"

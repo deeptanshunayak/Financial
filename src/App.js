@@ -12,6 +12,8 @@ import Loanpage2 from './Loanpage2';
 import Loanpage3 from './Loanpage3';
 import Loanpage4 from './Loanpage4';
 import Loanpage5 from './Loanpage5';
+import Business from './Business';
+import Creditcard from './Creditcard';
 import Navbar  from './Navbar';
 import Form from './Form';
 import ScrollToTop from "react-scroll-to-top";
@@ -37,10 +39,13 @@ function App() {
         <Route path='/loan3' Component={Loanpage3}/>
         <Route path='/loan4' Component={Loanpage4}/>
         <Route path='/loan5' Component={Loanpage5}/>
+        <Route path='/Business' Component={Business}/>
+        <Route path='Creditcard' Component={Creditcard}/>
         <Route path='/contactus' Component={Form}/>
+      
         
         
-     </Routes>
+       </Routes>
      </switch>
     
     </div>

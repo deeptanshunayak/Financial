@@ -10,7 +10,7 @@ export default function AccordionUsage2() {
   return (
     <div>
       <h1 className='text-center pb-5 thesetter'>Frequently Asked Questions</h1>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
@@ -22,7 +22,7 @@ export default function AccordionUsage2() {
         A car loan is a financial arrangement where a lender provides funds to help you purchase a vehicle. You repay the loan in installments, often with interest, until the loan is fully paid off.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -34,7 +34,7 @@ export default function AccordionUsage2() {
         You apply for a car loan from a lender, and if approved, you receive the funds to buy the car. You then repay the loan in monthly installments over a predetermined period, typically 2-7 years, until the loan is paid off.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -46,7 +46,7 @@ export default function AccordionUsage2() {
         The interest rate is the cost of borrowing, while the Annual Percentage Rate (APR) includes both the interest rate and any additional fees, providing a more comprehensive view of the loan's total cost.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
@@ -58,7 +58,7 @@ export default function AccordionUsage2() {
         Factors include your credit score, income, employment history, existing debts, down payment, and the chosen car's value.
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className='mb-2 shadow'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
