@@ -18,11 +18,13 @@ import Navbar  from './Navbar';
 import Form from './Form';
 import ScrollToTop from "react-scroll-to-top";
 import { useEffect } from 'react';
+import {Country} from 'country-state-city'
 function App() {
   const {pathname}=useLocation();
   useEffect(()=>{
     window.scrollTo(0,0);
   },[pathname])
+  
   return (
     <>
     

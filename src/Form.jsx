@@ -46,13 +46,22 @@ export default function Form() {
                             <input type='text' id='Pcode' name='pcode' placeholder='Pincode'></input>
                         </div>
                         <div className='user-input-box'>
-                            <label for="state">State</label>
+                        <label for="state">State</label>
                             <select name='state' id='state' placeholder="Select State">
                             <option value="Select State">Select State</option>
                             <option value="Haryana">Haryana</option>
                             <option value="Delhi">Delhi</option>
                             <option value="Mumbai">Mumbai</option>
                             <option value="Orissa">Orissa</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Uttar pradesh">Uttar Pradesh</option>
+                            <option value="Andhra Pradesh">Andhra pradesh</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="west Bengal">West Bengal</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="kerala">kerala</option>
+                            <option value="Karnatka">Karnatka</option>
+                            <option value="Maharashtra">Mahrashtra</option>
                             </select>
                             {/* <input type='text' id='state' name='state' placeholder='Select State'></input> */}
                         </div>

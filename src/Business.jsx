@@ -133,10 +133,10 @@ export default function Business() {
                         <div className="row">
                             <div className="col-10 mx-auto">
                                 <div className="row">
-                                <h6 className="ps-5 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Business Loan</span></h6>
-                                    <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
-                                    <h6 className="ps-5 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
-                                    <div className="col-7 align-items-start">
+                                <h6 className="ps-2 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Business Loan</span></h6>
+                                    <h3 className="ps-2 fw-bold">Know your monthly for EMI Personal loan</h3>
+                                    <h6 className="ps-2 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                                    <div className="col-7">
                                         <div className="slider">
                                             <h6>Loan Amount(₹)</h6>
                                             <input className="sizer" value={pAmount} onChange={e => setpAmount(e.target.value)} />
@@ -278,13 +278,13 @@ export default function Business() {
                         <div id="eligibility" className="pt-5"></div>
                             <div className='pt-5 fade-in'>
                                 <h3 className='texter pb-3'>Eligibility</h3>
-                                <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
+                                <p>To qualify for a Business loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit Score:  A good credit score is often required to qualify for a business loan. Lenders use your credit history to assess your ability to repay the loan.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business Age:  Some lenders require a minimum operational history for your business, usually ranging from a few months to a year or more.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Criteria:     Min. 21 years at the time of loan application & Max. 65 years at the time of loan maturity.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Cash Flow:  Lenders often evaluate your business's cash flow to determine your ability to repay the loan.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Collateral:  Secured loans might require assets as collateral to secure the loan. Collateral can be real estate, equipment, inventory, or other valuable assets.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Additional Criteria:  Applicants must own either a residence, office, shop, or Godown.    </p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Clear repayment history</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
 
@@ -292,7 +292,7 @@ export default function Business() {
                             
                             <div id="features" className="pt-5"></div>
                             <div className='pt-5 fade-in'>
-                                <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
+                                <h3 className='texter pb-3'>Features and Benefits of our Business Loan</h3>
                                 <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
                                 <p>The followings are the ways a personal loan can be useful:</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
@@ -303,16 +303,19 @@ export default function Business() {
                             
                             <div id="documents" className="pt-5"></div>
                             <div className='pt-5'>
-                                <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+                                <h3 className='texter pb-3'>Documents required to apply for Business Loan</h3>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;ITR for the past 2-3 years</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Current Bank Account Statement for the last 12 months</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Address Proof for Residence such as Voter Card, Passport, Aadhar Card, Telephone Bill, Electricity Bill</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Address proof for Business such as the Telephone Bill or Electricity Bill</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Last Financial Year's provisional Financials and future year's projections.</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Company's business profile on the letterhead</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;2 photographs of promoters and property owners.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Sanction letter and Repayment schedule of existing loan</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST registration certificate and GST returns of latest 2 years.</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;D-Vat/Sale tax registration copy</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Udhayam Aadhar registration certificate</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Company PAN Card, Certificate of Incorporation, MOA, AOA, List of Directors, and Shareholding pattern for Pvt Ltd companies</p>
                             </div>
                             
                         </div>
@@ -330,8 +333,8 @@ export default function Business() {
                     <div className='row'>
                         <div className='col'>
                             <div className='row pt-5'>
-                                <h3 className='setcolorb'>Fees and Charges for Personal Loan</h3>
-                                <p className='text-white pt-3'>The fees and charges of personal loans usually vary from lender to lender and from case to case.
+                                <h3 className='setcolorb'>Fees and Charges for Business Loan</h3>
+                                <p className='text-white pt-3'>The fees and charges of Business loans usually vary from lender to lender and from case to case.
                                     The aforementioned table will give you a fair idea of the fees and charges related to personal loans:</p>
                             </div>
                             <div className='row pt-5'>

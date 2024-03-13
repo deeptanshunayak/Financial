@@ -133,9 +133,9 @@ export default function Loanpage5() {
                         <div className="row">
                             <div className="col-10 mx-auto">
                                 <div className="row">
-                                <h6 className="ps-5 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Gold Loan</span></h6>
-                                    <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
-                                    <h6 className="ps-5 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                                <h6 className="ps-2 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Gold Loan</span></h6>
+                                    <h3 className="ps-2 fw-bold">Know your monthly for EMI Personal loan</h3>
+                                    <h6 className="ps-2 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
                                     <div className="col-7 align-items-start">
                                         <div className="slider">
                                             <h6>Loan Amount(₹)</h6>

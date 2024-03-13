@@ -183,8 +183,8 @@ const Home = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row">
-                            <h3 className="ps-5"><b>Emi Calculator</b></h3>
-                            <h6 className="ps-5"><b>You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</b></h6>
+                            <h3 className="ps-2"><b>Emi Calculator</b></h3>
+                            <h6 className="ps-2"><b>You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</b></h6>
                             <div className="col-7 align-items-start">
                                 <div className="slider">
                                     <h6><b>Loan Amount(₹)</b></h6>

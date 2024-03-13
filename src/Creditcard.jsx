@@ -133,9 +133,9 @@ export default function Creditcard() {
                         <div className="row">
                             <div className="col-10 mx-auto">
                                 <div className="row">
-                                <h6 className="ps-5 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Credit Card</span></h6>
-                                    <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
-                                    <h6 className="ps-5 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                                <h6 className="ps-2 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Credit Card</span></h6>
+                                    <h3 className="ps-2 fw-bold">Know your monthly for EMI Personal loan</h3>
+                                    <h6 className="ps-2 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
                                     <div className="col-7 align-items-start">
                                         <div className="slider">
                                             <h6>Loan Amount(₹)</h6>
@@ -292,7 +292,7 @@ export default function Creditcard() {
                            
                             <div id="features" className="pt-5"></div>
                             <div className='pt-5 fade-in'>
-                                <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
+                                <h3 className='texter pb-3'>Features and Benefits of our Credit Card</h3>
                                 <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
                                 <p>The followings are the ways a personal loan can be useful:</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
@@ -303,16 +303,12 @@ export default function Creditcard() {
                            
                             <div id="documents" className="pt-5"></div>
                             <div className='pt-5'>
-                                <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
-                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+                                <h3 className='texter pb-3'>Documents required to apply for Credit Card</h3>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof : Need documents like your Aadhaar Card, PAN card, Driver's License, Passport, or Voter's ID to verify your identity.</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Address Proof:  You'll need to submit documents such as an Electricity bill, Telephone bill, Aadhaar Card, or other valid proof of your residential address.</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Annual ITR (Self-Employed):  For those who are self-employed or have alternative income sources, providing your annual Income Tax Returns (ITR) your financial status.</p>
+                                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Latest Salary Slips:   If you are a salaried individual, submitting your recent salary slips can help demonstrate your income and repayment capacity.</p>
+                                
                             </div>
                             
                         </div>
@@ -330,7 +326,7 @@ export default function Creditcard() {
                     <div className='row'>
                         <div className='col'>
                             <div className='row pt-5'>
-                                <h3 className='setcolorb'>Fees and Charges for Personal Loan</h3>
+                                <h3 className='setcolorb'>Fees and Charges for Credit Card</h3>
                                 <p className='text-white pt-3'>The fees and charges of personal loans usually vary from lender to lender and from case to case.
                                     The aforementioned table will give you a fair idea of the fees and charges related to personal loans:</p>
                             </div>

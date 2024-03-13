@@ -135,9 +135,9 @@ export default function Loanpage1() {
             <div className="row">
               <div className="col-10 mx-auto">
                 <div className="row">
-                  <h6 className="ps-5 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Education Loan</span></h6>
-                  <h3 className="ps-5 fw-bold">Know your monthly for EMI Personal loan</h3>
-                  <h6 className="ps-5 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
+                  <h6 className="ps-2 pb-5"><span>Home&nbsp;&nbsp;</span>&#10095;<span className="setcolor">&nbsp;&nbsp;Education Loan</span></h6>
+                  <h3 className="ps-2 fw-bold">Know your monthly for EMI Personal loan</h3>
+                  <h6 className="ps-2 fw-bold pt-4">You can check your EMI based on the loan amount, tenure, and the interest rate the lender is offering.</h6>
                   <div className="col-7 align-items-start">
                     <div className="slider">
                       <h6>Loan Amount(₹)</h6>
@@ -258,10 +258,7 @@ export default function Loanpage1() {
                 <div className='pt-5'>
                   <div className='adjust'>
                     <section id='main'>
-                    <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
-
-                      Age should fall under the range of 21 years to 60 years
-                      Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
+                    <p>An education loan is a financial product designed to assist students and their families in covering the costs associated with higher education, including tuition fees, books, living expenses, and more.
                     </p>
                     </section></div>
                     
@@ -279,10 +276,10 @@ export default function Loanpage1() {
               <div className='pt-5 fixing'>
                 <h3 className='texter pb-3'>Eligibility</h3>
 
-                <p className="alignment">To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
+                <p className="alignment">To qualify for a Education loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a Education loan.</p>
+                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age: Most lenders have a minimum and maximum age requirement for loan applicants. Typically, you need to be of legal age (18 or older) to apply for a loan.</p>
+                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Admission Offer: Many lenders require proof of admission to an eligible educational institution before approving a loan application.</p>
+                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income/Financial Ability: Some lenders may consider your ability to repay the loan based on your income or your co-borrower's income.</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
@@ -293,8 +290,8 @@ export default function Loanpage1() {
               <div id="features" className="pt-5"></div>
            
               <div className='pt-5'>
-                <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
-                <p className="alignment">A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
+                <h3 className='texter pb-3'>Features and Benefits of our Education Loan</h3>
+                <p className="alignment">An education loan is a financial product designed to assist students and their families in covering the costs associated with higher education, including tuition fees, books, living expenses, and more.</p>
                 <p className="alignment">The followings are the ways a personal loan can be useful:</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
@@ -304,7 +301,7 @@ export default function Loanpage1() {
            
               <div id="documents" className="pt-5"></div>
               <div className='pt-5'>
-                <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
+                <h3 className='texter pb-3'>Documents required to apply for Education Loan</h3>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
                 <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>

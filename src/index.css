@@ -305,7 +305,7 @@ code {
 }
 .slider{
   width: 560px;
-  margin: 40px;
+  margin: 40px 40px 40px 10px;
   
 }
 .hero-btn button{
@@ -562,7 +562,11 @@ code {
 }
 .form-submit-btn input:hover{
 background: #3498db;
-
+ 
+}
+.grid-container {
+  display: grid;
+  column-gap: 50px;
 }
 .adjustment{
   
@@ -574,6 +578,31 @@ background: #3498db;
   color: #3C3C3C;
   font-weight: 700;
 }
+@media only screen and (max-width:1300px){
+  .card{
+    width: 230px !important;
+    height: 235px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .vb{
+    background-color: #5C50F8;
+    width: 421px;
+    height:250px;
+    border-radius:35px;
+    border:1px solid black;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .vb1{
+    background-color: #F9F4F1;
+    width: 420px;
+    height:185px;
+    color:#5C50F8;
+    border-radius:35px;
+     border:1px solid black;
+   
+  }
+}
 @media only screen and (max-width: 760px) {
   .slider{
     width: 260px;
@@ -582,6 +611,11 @@ background: #3498db;
   .slider1{
     width: 240px;
     
+  }
+  .card{
+    width: 270px !important;
+    height: 235px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .gapper-form{
     padding-right: 0% !important;

@@ -77,6 +77,12 @@ function FormExample() {
                                             <option value="4">Meerut</option>
                                             <option value="5">Vijaywada</option>
                                             <option value="6">Bihar</option>
+                                            <option value="7">Faridabad</option>
+                                            <option value="8">Chitorhgarh</option>
+                                            <option value="9">Palwal</option>
+                                            <option value="10">Puducherry</option>
+                                            <option value="11">Hoogly</option>
+                                            <option value="12">Bengaluru</option>
                                         </Form.Select>
                                     </div>
                                 </Form.Group>
@@ -91,6 +97,15 @@ function FormExample() {
                                             <option value="4">Andhra Pradesh</option>
                                             <option value="5">Madhya Pradesh</option>
                                             <option value="6">Bihar</option>
+                                            <option value="7">Karnatka</option>
+                                            <option value="8">Kerala</option>
+                                            <option value="9">Tamil Nadu</option>
+                                            <option value="10">West bengal</option>
+                                            <option value="11">Rajasthan</option>
+                                            <option value="12">Gujrat</option>
+                                            <option value="13">Goa</option>
+                                            <option value="14">Jammu kashmir</option>
+                                            <option value="15">Hyedarabad</option>
                                         </Form.Select>
                                     </div>
                                 </Form.Group>
